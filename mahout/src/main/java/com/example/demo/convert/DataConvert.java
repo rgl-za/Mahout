@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-public class DataConvert {
+public class DataConvert { // 받아온 데이터를 csv파일로 변환 해주는 클래스
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader("data/u.data"));
 		BufferedWriter bw = new BufferedWriter(new FileWriter("data/movies.csv"));
