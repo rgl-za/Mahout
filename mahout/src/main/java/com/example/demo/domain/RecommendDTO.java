@@ -5,6 +5,7 @@ import lombok.Data;
 @Data
 public class RecommendDTO {
     private int userNo;
-    private int pnum;
+    private int plantKeyId;
     private int prefer;
+    private String userId;
 }
